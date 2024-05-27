@@ -13,6 +13,8 @@ public class Homework {
         factory.produceCar(5);
         factory.produceCar(10);
         factory.produceCar(15);
+        factory.produceCar(20);
+        factory.produceCar(25);
 
         System.out.println("Начальная фаза:");
         factory.displayInfo();

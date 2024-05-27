@@ -25,3 +25,5 @@ class Customer {
         return "Покупатель{Имя='" + fullName + "', машина=" + (car != null ? car.toString() : "none") + "}";
     }
 }
+//Содержит fullName и ссылку на Car.
+//Метод buyCar позволяет назначить машину клиенту.

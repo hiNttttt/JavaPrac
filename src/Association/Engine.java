@@ -11,4 +11,5 @@ class Engine {
         return pedalSize;
     }
 }
-
+//Содержит характеристику pedalSize.
+//Связан с Car через композицию.

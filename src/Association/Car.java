@@ -17,5 +17,11 @@ class Car {
     public int getEnginePedalSize() {
         return engine.getPedalSize();
     }
-}
 
+    @Override
+    public String toString() {
+        return "Машина{Серийный номер=" + serialNumber + ", размер педалей=" + engine.getPedalSize() + "}";
+    }
+}
+//Содержит уникальный serialNumber и объект Engine.
+//Конструктор создает новый объект Engine.
