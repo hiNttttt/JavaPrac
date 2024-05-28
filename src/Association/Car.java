@@ -1,7 +1,7 @@
 package Association;
 
 class Car {
-    private static int carCounter = 0;
+    private int carCounter = 0;
     private int serialNumber;
     private Engine engine;
 
