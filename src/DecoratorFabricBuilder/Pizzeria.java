@@ -61,7 +61,7 @@ public class Pizzeria {
         System.out.println("2. Thick");
         System.out.print("Enter your choice: ");
 
-        Dough dough = null;
+        Dough dough;
         switch (getUserChoice()) {
             case 1:
                 dough = new Dough("Thin Dough");
